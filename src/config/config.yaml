@@ -11,7 +11,8 @@ experiment:
 model:
   # name: "/data/xiaobei/Common_LLM_Base/Qwen2.5-7B-Instruct"
   # name: "/data/xiaobei/Common_LLM_Base/Qwen2.5-1.5B-Instruct"
-  name: "/kaggle/working/Qwen2.5-3B-Instruct/Qwen2.5-3B-Instruct"
+#  name: "/kaggle/working/Qwen2.5-3B-Instruct/Qwen2.5-3B-Instruct"
+  name: "Qwen/Qwen2.5-3B-Instruct"
   torch_dtype: "bfloat16"
   device_map: null
 
