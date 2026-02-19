@@ -43,6 +43,7 @@ def main():
 
     accelerator = Accelerator()
     if accelerator.is_local_main_process and config.swanlab:
+        swanlab.login("ikfZCJlECZo55BnLeYv47")
         swanlab.init(
             project=config.project.name,
             experiment_name=config.experiment.name,
