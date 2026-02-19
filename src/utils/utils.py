@@ -103,5 +103,5 @@ def setup_logging(log_dir=None, level=logging.INFO):
     logging.basicConfig(
         level=level,
         format=("[%(asctime)s] [%(levelname)s] [%(filename)s:%(lineno)d] \n%(message)s"),
-        handlers=handlers,
+        # handlers=handlers,
     )
