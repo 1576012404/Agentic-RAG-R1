@@ -64,6 +64,7 @@ def main():
     logging.info(f"Saving config to {output_dir / 'config.json'}")
 
     set_random_seed(config.experiment.random_seed)
+    print(f"111111Set random seed to {config.experiment.random_seed}")
     logging.info(f"Set random seed to {config.experiment.random_seed}")
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
